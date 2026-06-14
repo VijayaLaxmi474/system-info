@@ -1,0 +1,12 @@
+services:
+
+  employee-app:
+
+    image: employee-app:v1
+
+    container_name: employee-container
+
+    ports:
+      - "5000:5000"
+
+    restart: always
